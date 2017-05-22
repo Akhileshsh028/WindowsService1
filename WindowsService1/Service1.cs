@@ -19,10 +19,12 @@ namespace WindowsService1
 
         protected override void OnStart(string[] args)
         {
+            Console.WriteLine("Awsome service started");
         }
 
         protected override void OnStop()
         {
+            Console.WriteLine("Awsome service stoped");
         }
     }
 }
